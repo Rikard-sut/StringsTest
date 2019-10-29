@@ -29,11 +29,6 @@ namespace StringsUPG14
             {
                 Console.WriteLine(string.Format("\nOrdboken inehåller ej ordet \"{0}\".\n",input));
             }
-
-            /*
-            Console.WriteLine(dict.ContainsKey(input) ? string.Format("\n{0} : {1}\n", input, dict[input])
-                : string.Format("\n Ordbok innehåller ej ordet \"{0}\".\n", input));
-                */
             Console.ReadKey();
         }
     }
